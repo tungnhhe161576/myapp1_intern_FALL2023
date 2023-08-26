@@ -1,0 +1,33 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(119, 117, 117, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 2000;
+  }
+  
+  .modal.open {
+    display: flex;
+  }
+  
+  .modal-container {
+    width: 650px;
+    min-height: 200px;
+    background-color: #e4dfdf;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: modalFadeIn ease 0.5s;
+    background-color: #e4dfdf;
+    padding: 12px 20px;
+  }
+
+  .modal-title {
+    border-bottom: 1px solid rgb(201, 190, 190);
+    margin-bottom: 12px;
+    width: 100%;
+  }
